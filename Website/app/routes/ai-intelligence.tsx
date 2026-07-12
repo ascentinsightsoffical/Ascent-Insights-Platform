@@ -13,7 +13,7 @@ export function meta() {
 export default function AIIntelligence() {
   return (
     <div>
-      <Section className="bg-slate-950 text-white">
+      <Section className="bg-gradient-hero text-white">
         <Container>
           <PageHeader
             eyebrow="AI Intelligence"

@@ -13,7 +13,7 @@ export function meta() {
 export default function Contact() {
   return (
     <div>
-      <Section className="bg-slate-950 text-white">
+      <Section className="bg-gradient-hero text-white">
         <Container>
           <PageHeader
             eyebrow="Contact"
@@ -24,9 +24,9 @@ export default function Contact() {
       </Section>
       <Section>
         <Container>
-          <div className="rounded-[32px] border border-slate-200 bg-white p-10 shadow-[0_24px_56px_rgba(15,23,42,0.08)]">
-            <h2 className="text-2xl font-semibold text-slate-950">Engagement placeholder</h2>
-            <p className="mt-4 text-sm leading-7 text-slate-600">
+          <div className="rounded-[32px] border border-white/10 bg-[#0A1045] p-10 shadow-[0_24px_56px_rgba(5,8,45,0.3)]">
+            <h2 className="text-2xl font-semibold text-white">Engagement placeholder</h2>
+            <p className="mt-4 text-sm leading-7 text-[#9CA3AF]">
               A polished contact experience will be implemented later, supporting inquiry, partnerships, and strategic briefings.
             </p>
             <Button className="mt-6">Request information</Button>

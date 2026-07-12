@@ -7,12 +7,12 @@ interface BreadcrumbProps {
 
 export function Breadcrumb({ items }: BreadcrumbProps) {
   return (
-    <nav aria-label="Breadcrumb" className="text-sm text-slate-500">
+    <nav aria-label="Breadcrumb" className="text-sm text-[#9CA3AF]">
       <ol className="flex flex-wrap gap-2">
         {items.map((item, index) => (
           <li key={item.path} className="inline-flex items-center gap-2">
-            {index > 0 && <span aria-hidden="true">/</span>}
-            <Link className="transition hover:text-slate-900" to={item.path}>
+            {index > 0 && <span aria-hidden="true" className="text-[#6B7280]">/</span>}
+            <Link className="transition hover:text-[#3E7BFF]" to={item.path}>
               {item.label}
             </Link>
           </li>

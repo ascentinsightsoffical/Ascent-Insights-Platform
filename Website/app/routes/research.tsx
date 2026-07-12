@@ -14,7 +14,7 @@ export function meta() {
 export default function Research() {
   return (
     <div>
-      <Section className="bg-slate-950 text-white">
+      <Section className="bg-gradient-hero text-white">
         <Container>
           <PageHeader
             eyebrow="Research"
@@ -29,13 +29,13 @@ export default function Research() {
             <div>
               <SectionTitle
                 eyebrow="In focus"
-                title="Research directions for today’s enterprise challenges"
+                title="Research directions for today's enterprise challenges"
                 description="Emerging topics will include market strategy, technology governance, digital equity, and AI capability design."
               />
             </div>
-            <div className="rounded-[32px] border border-slate-200 bg-slate-50 p-8">
-              <h2 className="text-xl font-semibold text-slate-950">Research agenda</h2>
-              <p className="mt-4 text-sm leading-7 text-slate-600">
+            <div className="rounded-[32px] border border-white/10 bg-[#0A1045] p-8">
+              <h2 className="text-xl font-semibold text-white">Research agenda</h2>
+              <p className="mt-4 text-sm leading-7 text-[#9CA3AF]">
                 Build a research practice that supports practical decisions, executive confidence, and sector-level transformation leadership.
               </p>
               <Button className="mt-6" variant="secondary">

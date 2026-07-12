@@ -2,11 +2,11 @@ export const navigationLinks = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
   { label: "Services", path: "/services" },
-  { label: "Industries", path: "/industries" },
+ /*  { label: "Industries", path: "/industries" },
   { label: "Solutions", path: "/solutions" },
   { label: "Research", path: "/research" },
-  { label: "Insights", path: "/insights" },
-  { label: "AI Intelligence", path: "/ai-intelligence" },
+  { label: "Insights", path: "/insights" }, */
+/*   { label: "AI Intelligence", path: "/ai-intelligence" }, */
   { label: "Academy", path: "/academy" },
   { label: "Careers", path: "/careers" },
   { label: "Contact", path: "/contact" },
@@ -49,5 +49,6 @@ export const footerSections = [
 export const socialLinks = [
   { label: "LinkedIn", href: "https://linkedin.com/company/ascent-insights" },
   { label: "Twitter", href: "https://twitter.com/ascentinsights" },
-  { label: "Medium", href: "https://medium.com/@ascent-insights" },
+  { label: "Facebook", href: "https://facebook.com/ascentinsights" },
+  { label: "Instagram", href: "https://instagram.com/ascentinsights" },
 ];

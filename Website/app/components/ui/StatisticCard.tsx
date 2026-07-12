@@ -10,14 +10,14 @@ interface StatisticCardProps {
 
 export function StatisticCard({ value, label, description, icon }: StatisticCardProps) {
   return (
-    <Card className="space-y-4 bg-slate-50 border-slate-200">
+    <Card className="space-y-4 border border-white/10 bg-[#0A1045]">
       <div className="flex items-center gap-4">
-        {icon ? <div className="text-slate-500">{icon}</div> : null}
-        <p className="text-3xl font-semibold tracking-tight text-slate-950">{value}</p>
+        {icon ? <div className="text-[#3E7BFF]">{icon}</div> : null}
+        <p className="text-3xl font-semibold tracking-tight text-white">{value}</p>
       </div>
       <div className="space-y-2">
-        <h3 className="text-base font-semibold text-slate-900">{label}</h3>
-        <p className="text-sm leading-7 text-slate-600">{description}</p>
+        <h3 className="text-base font-semibold text-white">{label}</h3>
+        <p className="text-sm leading-7 text-[#9CA3AF]">{description}</p>
       </div>
     </Card>
   );

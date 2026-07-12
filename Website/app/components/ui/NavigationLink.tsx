@@ -9,7 +9,14 @@ interface NavigationLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 
 export function NavigationLink({ to, className, children, ...props }: NavigationLinkProps) {
   return (
-    <Link to={to} className={classNames("text-sm font-medium text-slate-700 transition hover:text-slate-950", className)} {...props}>
+    <Link
+      to={to}
+      className={classNames(
+        "text-sm font-medium text-[#9CA3AF] transition hover:text-[#3E7BFF]",
+        className,
+      )}
+      {...props}
+    >
       {children}
     </Link>
   );

@@ -21,22 +21,21 @@ export default function Home() {
         <Container>
           <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
             <div className="space-y-8">
-              <p className="text-sm font-semibold uppercase tracking-[0.28em] text-slate-200">Strategic transformation</p>
-              <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Intelligent digital leadership for Africa and global markets.
-              </h1>
-              <p className="max-w-2xl text-base leading-8 text-slate-300">
-                Build a resilient enterprise platform foundation that aligns strategy, people, data, and AI for measurable impact.
-              </p>
+              <PageHeader
+                eyebrow="Strategic transformation"
+                title="Intelligent digital leadership for Africa and global markets."
+                description="Build a resilient enterprise platform foundation that aligns strategy, people, data, and AI for measurable impact."
+                className="text-white"
+              />
               <div className="flex flex-col gap-4 sm:flex-row">
                 <Button>Explore services</Button>
                 <Button variant="secondary">View research</Button>
               </div>
             </div>
-            <div className="rounded-[32px] border border-white/10 bg-white/5 p-8 text-slate-100 shadow-[0_48px_100px_rgba(15,23,42,0.35)]">
-              <p className="text-sm uppercase tracking-[0.28em] text-slate-300">Program focus</p>
+            <div className="rounded-[32px] border border-white/10 bg-[#0A1045]/80 p-8 text-[#9CA3AF] shadow-[0_48px_100px_rgba(5,8,45,0.5)]">
+              <p className="text-sm uppercase tracking-[0.28em] text-[#3E7BFF]">Program focus</p>
               <h2 className="mt-4 text-2xl font-semibold text-white">Platform-ready experience design</h2>
-              <p className="mt-4 text-sm leading-7 text-slate-300">
+              <p className="mt-4 text-sm leading-7 text-[#9CA3AF]">
                 A foundation for public engagement, client journeys, internal operations, and AI-enabled transformation at scale.
               </p>
             </div>
@@ -45,11 +44,6 @@ export default function Home() {
       </HeroWrapper>
       <Section>
         <Container>
-          <PageHeader
-            eyebrow="Why Ascent"
-            title="A disciplined approach to platform, people, and performance"
-            description="We help organizations navigate strategic priorities with clarity, build digital capability with confidence, and create sustainable value through practical innovation."
-          />
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             <FeatureCard
               badge="Strategy"
@@ -69,7 +63,7 @@ export default function Home() {
           </div>
         </Container>
       </Section>
-      <Section className="bg-slate-100">
+      <Section className="bg-[#0A1045]">
         <Container>
           <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
@@ -88,12 +82,12 @@ export default function Home() {
       </Section>
       <Section>
         <Container>
-          <div className="rounded-[32px] border border-slate-200 bg-white p-10 shadow-[0_24px_56px_rgba(15,23,42,0.08)]">
+          <div className="rounded-[32px] border border-white/10 bg-[#0A1045] p-10 shadow-[0_24px_56px_rgba(5,8,45,0.3)]">
             <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
               <div className="space-y-4">
-                <p className="text-sm uppercase tracking-[0.28em] text-slate-600">Ready for next phase</p>
-                <h2 className="text-3xl font-semibold tracking-tight text-slate-950">Future-fit digital transformation starts with architecture.</h2>
-                <p className="max-w-2xl text-sm leading-7 text-slate-600">
+                <p className="text-sm uppercase tracking-[0.28em] text-[#3E7BFF]">Ready for next phase</p>
+                <h2 className="text-3xl font-semibold tracking-tight text-white">Future-fit digital transformation starts with architecture.</h2>
+                <p className="max-w-2xl text-sm leading-7 text-[#9CA3AF]">
                   Prepare your organization for the next wave of AI, platform, and customer engagement without sacrificing rigor or credibility.
                 </p>
               </div>
