@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ascent-insights-website
+    env: node
+    plan: free
+    rootDir: Website
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
